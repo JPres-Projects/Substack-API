@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python:*)",
+      "Bash(copy \"C:\\Users\\stand\\Documents\\GitHub\\0---Tests\\substack-api\\.env\" \"C:\\Users\\stand\\Documents\\GitHub\\0---Tests\\substack-api\\env\\.account1.env\")",
+      "Read(/C:\\Users\\stand\\Documents\\GitHub\\0---Tests\\substack-api/**)",
+      "Read(/C:\\Users\\stand\\Documents\\GitHub\\0---Tests\\substack-api\\env/**)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

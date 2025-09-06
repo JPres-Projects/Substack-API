@@ -1,0 +1,1646 @@
+{
+  "content_types_reference": {
+    "doc": {
+      "structure": {
+        "type": "doc",
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "marks": [
+                  {
+                    "type": "strong"
+                  }
+                ],
+                "text": "Text in bold here but normal"
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "attrs": {
+              "level": 1
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "H1 Heading"
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "attrs": {
+              "level": 2
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "H2 Heading"
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "attrs": {
+              "level": 3
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "H3 Heading"
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "attrs": {
+              "level": 4
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "H4 Heading"
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "attrs": {
+              "level": 5
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "H5 Heading"
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "attrs": {
+              "level": 6
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "H6 Heading "
+              }
+            ]
+          },
+          {
+            "type": "paragraph"
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "marks": [
+                  {
+                    "type": "em"
+                  }
+                ],
+                "text": "Text cursive "
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "marks": [
+                  {
+                    "type": "strikethrough"
+                  }
+                ],
+                "text": "Text crossed out"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "marks": [
+                  {
+                    "type": "code"
+                  }
+                ],
+                "text": "This is code a code insert: print(\"Hello, World!\")"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "marks": [
+                  {
+                    "type": "link",
+                    "attrs": {
+                      "href": "https://ai.google.dev/gemini-api/docs/pricing?hl=de",
+                      "target": "_blank",
+                      "rel": "noopener noreferrer nofollow",
+                      "class": null
+                    }
+                  }
+                ],
+                "text": "This is a Link"
+              }
+            ]
+          },
+          {
+            "type": "paragraph"
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Now I am adding an image down below:"
+              }
+            ]
+          },
+          {
+            "type": "paragraph"
+          },
+          {
+            "type": "captionedImage",
+            "content": [
+              {
+                "type": "image2",
+                "attrs": {
+                  "src": "https://substack-post-media.s3.amazonaws.com/public/images/42ef0c2b-b394-4b5e-a77d-047e91449c7a_364x313.png",
+                  "srcNoWatermark": null,
+                  "fullscreen": null,
+                  "imageSize": null,
+                  "height": 313,
+                  "width": 364,
+                  "resizeWidth": null,
+                  "bytes": 17415,
+                  "alt": null,
+                  "title": null,
+                  "type": "image/png",
+                  "href": null,
+                  "belowTheFold": false,
+                  "topImage": false,
+                  "internalRedirect": "https://yourpub.substack.com/i/172549420?img=https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F42ef0c2b-b394-4b5e-a77d-047e91449c7a_364x313.png",
+                  "isProcessing": false,
+                  "align": null,
+                  "offset": false
+                }
+              }
+            ]
+          },
+          {
+            "type": "paragraph"
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "now I am adding an audio"
+              }
+            ]
+          },
+          {
+            "type": "audio",
+            "attrs": {
+              "label": null,
+              "mediaUploadId": "eba0b226-7693-4cc7-a9a8-05495b5d6dde",
+              "duration": 183.43184,
+              "isEditorNode": true
+            }
+          },
+          {
+            "type": "paragraph"
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "now I am adding a video: "
+              }
+            ]
+          },
+          {
+            "type": "video",
+            "attrs": {
+              "mediaUploadId": "3ea9ccd9-9af2-470a-b2e8-702008a6401d",
+              "duration": null
+            }
+          },
+          {
+            "type": "paragraph"
+          },
+          {
+            "type": "blockquote",
+            "content": [
+              {
+                "type": "paragraph",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "This is a block quote"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "pullquote",
+            "attrs": {
+              "align": null,
+              "color": null
+            },
+            "content": [
+              {
+                "type": "paragraph",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "And this is an emphazized quote"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "bullet_list",
+            "content": [
+              {
+                "type": "list_item",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "This is a list here bullet point 1"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "point 2"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "point 3…"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ordered_list",
+            "attrs": {
+              "start": 1,
+              "order": 1
+            },
+            "content": [
+              {
+                "type": "list_item",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "This is a numeric list point 1"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "point 2"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "point 3 "
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph"
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "This is a subscription button"
+              }
+            ]
+          },
+          {
+            "type": "button",
+            "attrs": {
+              "url": "%%checkout_url%%",
+              "text": "Jetzt abonnieren",
+              "action": null,
+              "class": null
+            }
+          },
+          {
+            "type": "paragraph"
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Subscription Button with text"
+              }
+            ]
+          },
+          {
+            "type": "subscribeWidget",
+            "attrs": {
+              "url": "%%checkout_url%%",
+              "text": "Abonnieren",
+              "language": "de"
+            },
+            "content": [
+              {
+                "type": "ctaCaption",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "Thanks for reading Substack von Jim! Subscribe for free to receive new posts and support my work."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph"
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Share Post Button:"
+              }
+            ]
+          },
+          {
+            "type": "button",
+            "attrs": {
+              "url": "%%share_url%%",
+              "text": "Teilen",
+              "action": null,
+              "class": null
+            }
+          },
+          {
+            "type": "paragraph"
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Share Post with Text button: "
+              }
+            ]
+          },
+          {
+            "type": "captionedShareButton",
+            "attrs": {
+              "url": "%%share_url%%",
+              "text": "Teilen"
+            },
+            "content": [
+              {
+                "type": "ctaCaption",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "Thanks for reading Substack von Jim! This post is public so feel free to share it."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Share Substack Account Button"
+              }
+            ]
+          },
+          {
+            "type": "button",
+            "attrs": {
+              "url": "https://yourpub.substack.com/?utm_source=substack&utm_medium=email&utm_content=share&action=share",
+              "text": "Substack von Jim teilen",
+              "action": null,
+              "class": null
+            }
+          },
+          {
+            "type": "paragraph"
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Leave a comment button: "
+              }
+            ]
+          },
+          {
+            "type": "button",
+            "attrs": {
+              "url": "%%half_magic_comments_url%%",
+              "text": "Einen Kommentar hinterlassen",
+              "action": null,
+              "class": null
+            }
+          },
+          {
+            "type": "paragraph"
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Send a message to me button: "
+              }
+            ]
+          },
+          {
+            "type": "directMessage",
+            "attrs": {
+              "userId": 370411012,
+              "userName": "Jim Presting",
+              "canDm": null,
+              "dmUpgradeOptions": null,
+              "isEditorNode": true,
+              "isEditor": true
+            }
+          },
+          {
+            "type": "paragraph"
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "This is a custom button with a custom URL"
+              }
+            ]
+          },
+          {
+            "type": "button",
+            "attrs": {
+              "url": "https://www.youtube.com/",
+              "text": "Custom Button",
+              "action": null,
+              "class": null
+            }
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Code Block with backgtound: "
+              }
+            ]
+          },
+          {
+            "type": "code_block",
+            "attrs": {
+              "language": null
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "printC(\"Hello, World!\")"
+              }
+            ]
+          },
+          {
+            "type": "horizontal_rule"
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "This again is a distingshen line… "
+              }
+            ]
+          },
+          {
+            "type": "horizontal_rule"
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "This is a finance table (in this case I added Equinox Gold on a 1 Day its a TradingView API Insertion):"
+              }
+            ]
+          },
+          {
+            "type": "captionedImage",
+            "content": [
+              {
+                "type": "image2",
+                "attrs": {
+                  "src": "https://substack-post-media.s3.amazonaws.com/public/images/50209ae8-e5b6-4182-b284-7efd92f3582c_1235x908.png",
+                  "srcNoWatermark": null,
+                  "fullscreen": null,
+                  "imageSize": null,
+                  "height": 908,
+                  "width": 1235,
+                  "resizeWidth": null,
+                  "bytes": null,
+                  "alt": "TradingView chart",
+                  "title": null,
+                  "type": "image/jpg",
+                  "href": null,
+                  "belowTheFold": false,
+                  "topImage": false,
+                  "internalRedirect": null,
+                  "isProcessing": false,
+                  "align": null,
+                  "offset": false
+                }
+              },
+              {
+                "type": "caption",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "Created with "
+                  },
+                  {
+                    "type": "text",
+                    "marks": [
+                      {
+                        "type": "link",
+                        "attrs": {
+                          "href": "https://tradingview.com",
+                          "target": "_blank",
+                          "rel": "noopener noreferrer nofollow",
+                          "class": null
+                        }
+                      }
+                    ],
+                    "text": "TradingView"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph"
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "footnoteAnchor",
+                "attrs": {
+                  "number": 1
+                }
+              },
+              {
+                "type": "text",
+                "text": " Footnote "
+              }
+            ]
+          },
+          {
+            "type": "paragraph"
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "This is latex insertion:"
+              }
+            ]
+          },
+          {
+            "type": "latex_block",
+            "attrs": {
+              "persistentExpression": "x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}\n",
+              "id": "BOBEKRAUUG"
+            }
+          },
+          {
+            "type": "paragraph"
+          },
+          {
+            "type": "paragraph"
+          },
+          {
+            "type": "paragraph"
+          },
+          {
+            "type": "paragraph"
+          },
+          {
+            "type": "footnote",
+            "attrs": {
+              "number": 1
+            },
+            "content": [
+              {
+                "type": "paragraph",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "Footnote again"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "required_attrs": {},
+      "possible_marks": []
+    },
+    "paragraph": {
+      "structure": {
+        "type": "paragraph"
+      },
+      "required_attrs": {},
+      "possible_marks": []
+    },
+    "text": {
+      "structure": {
+        "type": "text",
+        "text": "point 2"
+      },
+      "required_attrs": {},
+      "possible_marks": [
+        "link",
+        "strikethrough",
+        "em",
+        "strong",
+        "code"
+      ]
+    },
+    "strong": {
+      "structure": {
+        "type": "strong"
+      },
+      "required_attrs": {},
+      "possible_marks": []
+    },
+    "heading": {
+      "structure": {
+        "type": "heading",
+        "attrs": {
+          "level": 1
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "H1 Heading"
+          }
+        ]
+      },
+      "required_attrs": {
+        "level": 1
+      },
+      "possible_marks": []
+    },
+    "em": {
+      "structure": {
+        "type": "em"
+      },
+      "required_attrs": {},
+      "possible_marks": []
+    },
+    "strikethrough": {
+      "structure": {
+        "type": "strikethrough"
+      },
+      "required_attrs": {},
+      "possible_marks": []
+    },
+    "code": {
+      "structure": {
+        "type": "code"
+      },
+      "required_attrs": {},
+      "possible_marks": []
+    },
+    "link": {
+      "structure": {
+        "type": "link",
+        "attrs": {
+          "href": "https://tradingview.com",
+          "target": "_blank",
+          "rel": "noopener noreferrer nofollow",
+          "class": null
+        }
+      },
+      "required_attrs": {
+        "href": "https://tradingview.com",
+        "target": "_blank",
+        "rel": "noopener noreferrer nofollow",
+        "class": null
+      },
+      "possible_marks": []
+    },
+    "captionedImage": {
+      "structure": {
+        "type": "captionedImage",
+        "content": [
+          {
+            "type": "image2",
+            "attrs": {
+              "src": "https://substack-post-media.s3.amazonaws.com/public/images/42ef0c2b-b394-4b5e-a77d-047e91449c7a_364x313.png",
+              "srcNoWatermark": null,
+              "fullscreen": null,
+              "imageSize": null,
+              "height": 313,
+              "width": 364,
+              "resizeWidth": null,
+              "bytes": 17415,
+              "alt": null,
+              "title": null,
+              "type": "image/png",
+              "href": null,
+              "belowTheFold": false,
+              "topImage": false,
+              "internalRedirect": "https://yourpub.substack.com/i/172549420?img=https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F42ef0c2b-b394-4b5e-a77d-047e91449c7a_364x313.png",
+              "isProcessing": false,
+              "align": null,
+              "offset": false
+            }
+          }
+        ]
+      },
+      "required_attrs": {},
+      "possible_marks": []
+    },
+    "image2": {
+      "structure": {
+        "type": "image2",
+        "attrs": {
+          "src": "https://substack-post-media.s3.amazonaws.com/public/images/50209ae8-e5b6-4182-b284-7efd92f3582c_1235x908.png",
+          "srcNoWatermark": null,
+          "fullscreen": null,
+          "imageSize": null,
+          "height": 908,
+          "width": 1235,
+          "resizeWidth": null,
+          "bytes": null,
+          "alt": "TradingView chart",
+          "title": null,
+          "type": "image/jpg",
+          "href": null,
+          "belowTheFold": false,
+          "topImage": false,
+          "internalRedirect": null,
+          "isProcessing": false,
+          "align": null,
+          "offset": false
+        }
+      },
+      "required_attrs": {
+        "src": "https://substack-post-media.s3.amazonaws.com/public/images/50209ae8-e5b6-4182-b284-7efd92f3582c_1235x908.png",
+        "srcNoWatermark": null,
+        "fullscreen": null,
+        "imageSize": null,
+        "height": 908,
+        "width": 1235,
+        "resizeWidth": null,
+        "bytes": null,
+        "alt": "TradingView chart",
+        "title": null,
+        "type": "image/jpg",
+        "href": null,
+        "belowTheFold": false,
+        "topImage": false,
+        "internalRedirect": null,
+        "isProcessing": false,
+        "align": null,
+        "offset": false
+      },
+      "possible_marks": []
+    },
+    "image/png": {
+      "structure": {
+        "src": "https://substack-post-media.s3.amazonaws.com/public/images/42ef0c2b-b394-4b5e-a77d-047e91449c7a_364x313.png",
+        "srcNoWatermark": null,
+        "fullscreen": null,
+        "imageSize": null,
+        "height": 313,
+        "width": 364,
+        "resizeWidth": null,
+        "bytes": 17415,
+        "alt": null,
+        "title": null,
+        "type": "image/png",
+        "href": null,
+        "belowTheFold": false,
+        "topImage": false,
+        "internalRedirect": "https://yourpub.substack.com/i/172549420?img=https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F42ef0c2b-b394-4b5e-a77d-047e91449c7a_364x313.png",
+        "isProcessing": false,
+        "align": null,
+        "offset": false
+      },
+      "required_attrs": {},
+      "possible_marks": []
+    },
+    "audio": {
+      "structure": {
+        "type": "audio",
+        "attrs": {
+          "label": null,
+          "mediaUploadId": "eba0b226-7693-4cc7-a9a8-05495b5d6dde",
+          "duration": 183.43184,
+          "isEditorNode": true
+        }
+      },
+      "required_attrs": {
+        "label": null,
+        "mediaUploadId": "eba0b226-7693-4cc7-a9a8-05495b5d6dde",
+        "duration": 183.43184,
+        "isEditorNode": true
+      },
+      "possible_marks": []
+    },
+    "video": {
+      "structure": {
+        "type": "video",
+        "attrs": {
+          "mediaUploadId": "3ea9ccd9-9af2-470a-b2e8-702008a6401d",
+          "duration": null
+        }
+      },
+      "required_attrs": {
+        "mediaUploadId": "3ea9ccd9-9af2-470a-b2e8-702008a6401d",
+        "duration": null
+      },
+      "possible_marks": []
+    },
+    "blockquote": {
+      "structure": {
+        "type": "blockquote",
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "This is a block quote"
+              }
+            ]
+          }
+        ]
+      },
+      "required_attrs": {},
+      "possible_marks": []
+    },
+    "pullquote": {
+      "structure": {
+        "type": "pullquote",
+        "attrs": {
+          "align": null,
+          "color": null
+        },
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "And this is an emphazized quote"
+              }
+            ]
+          }
+        ]
+      },
+      "required_attrs": {
+        "align": null,
+        "color": null
+      },
+      "possible_marks": []
+    },
+    "bullet_list": {
+      "structure": {
+        "type": "bullet_list",
+        "content": [
+          {
+            "type": "list_item",
+            "content": [
+              {
+                "type": "paragraph",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "This is a list here bullet point 1"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "list_item",
+            "content": [
+              {
+                "type": "paragraph",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "point 2"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "list_item",
+            "content": [
+              {
+                "type": "paragraph",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "point 3…"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "required_attrs": {},
+      "possible_marks": []
+    },
+    "list_item": {
+      "structure": {
+        "type": "list_item",
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "point 2"
+              }
+            ]
+          }
+        ]
+      },
+      "required_attrs": {},
+      "possible_marks": []
+    },
+    "ordered_list": {
+      "structure": {
+        "type": "ordered_list",
+        "attrs": {
+          "start": 1,
+          "order": 1
+        },
+        "content": [
+          {
+            "type": "list_item",
+            "content": [
+              {
+                "type": "paragraph",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "This is a numeric list point 1"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "list_item",
+            "content": [
+              {
+                "type": "paragraph",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "point 2"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "list_item",
+            "content": [
+              {
+                "type": "paragraph",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "point 3 "
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "required_attrs": {
+        "start": 1,
+        "order": 1
+      },
+      "possible_marks": []
+    },
+    "button": {
+      "structure": {
+        "type": "button",
+        "attrs": {
+          "url": "%%share_url%%",
+          "text": "Teilen",
+          "action": null,
+          "class": null
+        }
+      },
+      "required_attrs": {
+        "url": "%%share_url%%",
+        "text": "Teilen",
+        "action": null,
+        "class": null
+      },
+      "possible_marks": []
+    },
+    "subscribeWidget": {
+      "structure": {
+        "type": "subscribeWidget",
+        "attrs": {
+          "url": "%%checkout_url%%",
+          "text": "Abonnieren",
+          "language": "de"
+        },
+        "content": [
+          {
+            "type": "ctaCaption",
+            "content": [
+              {
+                "type": "text",
+                "text": "Thanks for reading Substack von Jim! Subscribe for free to receive new posts and support my work."
+              }
+            ]
+          }
+        ]
+      },
+      "required_attrs": {
+        "url": "%%checkout_url%%",
+        "text": "Abonnieren",
+        "language": "de"
+      },
+      "possible_marks": []
+    },
+    "ctaCaption": {
+      "structure": {
+        "type": "ctaCaption",
+        "content": [
+          {
+            "type": "text",
+            "text": "Thanks for reading Substack von Jim! This post is public so feel free to share it."
+          }
+        ]
+      },
+      "required_attrs": {},
+      "possible_marks": []
+    },
+    "captionedShareButton": {
+      "structure": {
+        "type": "captionedShareButton",
+        "attrs": {
+          "url": "%%share_url%%",
+          "text": "Teilen"
+        },
+        "content": [
+          {
+            "type": "ctaCaption",
+            "content": [
+              {
+                "type": "text",
+                "text": "Thanks for reading Substack von Jim! This post is public so feel free to share it."
+              }
+            ]
+          }
+        ]
+      },
+      "required_attrs": {
+        "url": "%%share_url%%",
+        "text": "Teilen"
+      },
+      "possible_marks": []
+    },
+    "directMessage": {
+      "structure": {
+        "type": "directMessage",
+        "attrs": {
+          "userId": 370411012,
+          "userName": "Jim Presting",
+          "canDm": null,
+          "dmUpgradeOptions": null,
+          "isEditorNode": true,
+          "isEditor": true
+        }
+      },
+      "required_attrs": {
+        "userId": 370411012,
+        "userName": "Jim Presting",
+        "canDm": null,
+        "dmUpgradeOptions": null,
+        "isEditorNode": true,
+        "isEditor": true
+      },
+      "possible_marks": []
+    },
+    "code_block": {
+      "structure": {
+        "type": "code_block",
+        "attrs": {
+          "language": null
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "printC(\"Hello, World!\")"
+          }
+        ]
+      },
+      "required_attrs": {
+        "language": null
+      },
+      "possible_marks": []
+    },
+    "horizontal_rule": {
+      "structure": {
+        "type": "horizontal_rule"
+      },
+      "required_attrs": {},
+      "possible_marks": []
+    },
+    "image/jpg": {
+      "structure": {
+        "src": "https://substack-post-media.s3.amazonaws.com/public/images/50209ae8-e5b6-4182-b284-7efd92f3582c_1235x908.png",
+        "srcNoWatermark": null,
+        "fullscreen": null,
+        "imageSize": null,
+        "height": 908,
+        "width": 1235,
+        "resizeWidth": null,
+        "bytes": null,
+        "alt": "TradingView chart",
+        "title": null,
+        "type": "image/jpg",
+        "href": null,
+        "belowTheFold": false,
+        "topImage": false,
+        "internalRedirect": null,
+        "isProcessing": false,
+        "align": null,
+        "offset": false
+      },
+      "required_attrs": {},
+      "possible_marks": []
+    },
+    "caption": {
+      "structure": {
+        "type": "caption",
+        "content": [
+          {
+            "type": "text",
+            "text": "Created with "
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "https://tradingview.com",
+                  "target": "_blank",
+                  "rel": "noopener noreferrer nofollow",
+                  "class": null
+                }
+              }
+            ],
+            "text": "TradingView"
+          }
+        ]
+      },
+      "required_attrs": {},
+      "possible_marks": []
+    },
+    "footnoteAnchor": {
+      "structure": {
+        "type": "footnoteAnchor",
+        "attrs": {
+          "number": 1
+        }
+      },
+      "required_attrs": {
+        "number": 1
+      },
+      "possible_marks": []
+    },
+    "latex_block": {
+      "structure": {
+        "type": "latex_block",
+        "attrs": {
+          "persistentExpression": "x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}\n",
+          "id": "BOBEKRAUUG"
+        }
+      },
+      "required_attrs": {
+        "persistentExpression": "x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}\n",
+        "id": "BOBEKRAUUG"
+      },
+      "possible_marks": []
+    },
+    "footnote": {
+      "structure": {
+        "type": "footnote",
+        "attrs": {
+          "number": 1
+        },
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Footnote again"
+              }
+            ]
+          }
+        ]
+      },
+      "required_attrs": {
+        "number": 1
+      },
+      "possible_marks": []
+    }
+  },
+  "examples": {
+    "doc": {
+      "type": "doc",
+      "content": [
+        {
+          "type": "text",
+          "text": "Your content here"
+        }
+      ]
+    },
+    "paragraph": {
+      "type": "paragraph"
+    },
+    "text": {
+      "type": "text",
+      "text": "point 2"
+    },
+    "strong": {
+      "type": "strong"
+    },
+    "heading": {
+      "type": "heading",
+      "attrs": {
+        "level": 1
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Your content here"
+        }
+      ]
+    },
+    "em": {
+      "type": "em"
+    },
+    "strikethrough": {
+      "type": "strikethrough"
+    },
+    "code": {
+      "type": "code"
+    },
+    "link": {
+      "type": "link",
+      "attrs": {
+        "href": "https://tradingview.com",
+        "target": "_blank",
+        "rel": "noopener noreferrer nofollow",
+        "class": null
+      }
+    },
+    "captionedImage": {
+      "type": "captionedImage",
+      "content": [
+        {
+          "type": "text",
+          "text": "Your content here"
+        }
+      ]
+    },
+    "image2": {
+      "type": "image2",
+      "attrs": {
+        "src": "https://substack-post-media.s3.amazonaws.com/public/images/50209ae8-e5b6-4182-b284-7efd92f3582c_1235x908.png",
+        "srcNoWatermark": null,
+        "fullscreen": null,
+        "imageSize": null,
+        "height": 908,
+        "width": 1235,
+        "resizeWidth": null,
+        "bytes": null,
+        "alt": "TradingView chart",
+        "title": null,
+        "type": "image/jpg",
+        "href": null,
+        "belowTheFold": false,
+        "topImage": false,
+        "internalRedirect": null,
+        "isProcessing": false,
+        "align": null,
+        "offset": false
+      }
+    },
+    "image/png": {
+      "src": "https://substack-post-media.s3.amazonaws.com/public/images/42ef0c2b-b394-4b5e-a77d-047e91449c7a_364x313.png",
+      "srcNoWatermark": null,
+      "fullscreen": null,
+      "imageSize": null,
+      "height": 313,
+      "width": 364,
+      "resizeWidth": null,
+      "bytes": 17415,
+      "alt": null,
+      "title": null,
+      "type": "image/png",
+      "href": null,
+      "belowTheFold": false,
+      "topImage": false,
+      "internalRedirect": "https://yourpub.substack.com/i/172549420?img=https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F42ef0c2b-b394-4b5e-a77d-047e91449c7a_364x313.png",
+      "isProcessing": false,
+      "align": null,
+      "offset": false
+    },
+    "audio": {
+      "type": "audio",
+      "attrs": {
+        "label": null,
+        "mediaUploadId": "eba0b226-7693-4cc7-a9a8-05495b5d6dde",
+        "duration": 183.43184,
+        "isEditorNode": true
+      }
+    },
+    "video": {
+      "type": "video",
+      "attrs": {
+        "mediaUploadId": "3ea9ccd9-9af2-470a-b2e8-702008a6401d",
+        "duration": null
+      }
+    },
+    "blockquote": {
+      "type": "blockquote",
+      "content": [
+        {
+          "type": "text",
+          "text": "Your content here"
+        }
+      ]
+    },
+    "pullquote": {
+      "type": "pullquote",
+      "attrs": {
+        "align": null,
+        "color": null
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Your content here"
+        }
+      ]
+    },
+    "bullet_list": {
+      "type": "bullet_list",
+      "content": [
+        {
+          "type": "text",
+          "text": "Your content here"
+        }
+      ]
+    },
+    "list_item": {
+      "type": "list_item",
+      "content": [
+        {
+          "type": "text",
+          "text": "Your content here"
+        }
+      ]
+    },
+    "ordered_list": {
+      "type": "ordered_list",
+      "attrs": {
+        "start": 1,
+        "order": 1
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Your content here"
+        }
+      ]
+    },
+    "button": {
+      "type": "button",
+      "attrs": {
+        "url": "%%share_url%%",
+        "text": "Teilen",
+        "action": null,
+        "class": null
+      }
+    },
+    "subscribeWidget": {
+      "type": "subscribeWidget",
+      "attrs": {
+        "url": "%%checkout_url%%",
+        "text": "Abonnieren",
+        "language": "de"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Your content here"
+        }
+      ]
+    },
+    "ctaCaption": {
+      "type": "ctaCaption",
+      "content": [
+        {
+          "type": "text",
+          "text": "Your content here"
+        }
+      ]
+    },
+    "captionedShareButton": {
+      "type": "captionedShareButton",
+      "attrs": {
+        "url": "%%share_url%%",
+        "text": "Teilen"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Your content here"
+        }
+      ]
+    },
+    "directMessage": {
+      "type": "directMessage",
+      "attrs": {
+        "userId": 370411012,
+        "userName": "Jim Presting",
+        "canDm": null,
+        "dmUpgradeOptions": null,
+        "isEditorNode": true,
+        "isEditor": true
+      }
+    },
+    "code_block": {
+      "type": "code_block",
+      "attrs": {
+        "language": null
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Your content here"
+        }
+      ]
+    },
+    "horizontal_rule": {
+      "type": "horizontal_rule"
+    },
+    "image/jpg": {
+      "src": "https://substack-post-media.s3.amazonaws.com/public/images/50209ae8-e5b6-4182-b284-7efd92f3582c_1235x908.png",
+      "srcNoWatermark": null,
+      "fullscreen": null,
+      "imageSize": null,
+      "height": 908,
+      "width": 1235,
+      "resizeWidth": null,
+      "bytes": null,
+      "alt": "TradingView chart",
+      "title": null,
+      "type": "image/jpg",
+      "href": null,
+      "belowTheFold": false,
+      "topImage": false,
+      "internalRedirect": null,
+      "isProcessing": false,
+      "align": null,
+      "offset": false
+    },
+    "caption": {
+      "type": "caption",
+      "content": [
+        {
+          "type": "text",
+          "text": "Your content here"
+        }
+      ]
+    },
+    "footnoteAnchor": {
+      "type": "footnoteAnchor",
+      "attrs": {
+        "number": 1
+      }
+    },
+    "latex_block": {
+      "type": "latex_block",
+      "attrs": {
+        "persistentExpression": "x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}\n",
+        "id": "BOBEKRAUUG"
+      }
+    },
+    "footnote": {
+      "type": "footnote",
+      "attrs": {
+        "number": 1
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Your content here"
+        }
+      ]
+    }
+  }
+}
